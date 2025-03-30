@@ -804,6 +804,19 @@ footer .end span{
     color: #fac031;
     margin-left: 10px;
 }
+/* Media Queries */
+@media (min-width: 320px) and (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    section {
+        padding: 0.5em;
+    }
 
 ::-webkit-scrollbar{
     width: 13px;
